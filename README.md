@@ -2,4 +2,4 @@
 ST558 Summer 1 Homework 1
 
 
-Thiis is a test to see how this works 
+This is a test to see how this works 

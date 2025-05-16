@@ -5,23 +5,41 @@ format: html
 editor: visual
 ---
 
-## Quarto
+∗ What do you think being a data scientist is about?
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Being a data scientist is about solving problems using data rather than using theory and estimations
 
-## Running Code
+∗ What differences/similarities do you see between data scientists and statisticians?
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Similarities:
+
+-   Foundation of math and probability
+
+-   Involved in data analysis and interpretation
+
+Differences:
+
+-   Statisticians focus more on theory and models
+
+-   Data science is more interdisciplinary overlapping with computer science
+
+∗ How do you view yourself in relation to these two areas?
+
+I view myself closer to a data scientist, i enjoy the theory and rigor of statistics but working with real world data to solve problems is far more enjoyable.
 
 ```{r}
-1 + 1
+y <- density(iris$Petal.Width)
 ```
 
-You can add options to executable code like this
+Determining the class, type and structure of y
 
 ```{r}
-#| echo: false
-2 * 2
+class(y)
+typeof(y)
+str(y)
+
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+```{r, echo=FALSE}
+plot(y)
+```
